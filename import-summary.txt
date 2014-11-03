@@ -1,0 +1,92 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* COPYING
+* README
+* archive\
+* archive\AndModelViewer_0.2.apk
+* archive\AndModelViewer_0.3.apk
+* default.properties
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\edu\
+* doc\edu\dhbw\
+* doc\edu\dhbw\adnobjviewer\
+* doc\edu\dhbw\adnobjviewer\MainActivity.html
+* doc\edu\dhbw\adnobjviewer\R.attr.html
+* doc\edu\dhbw\adnobjviewer\R.drawable.html
+* doc\edu\dhbw\adnobjviewer\R.html
+* doc\edu\dhbw\adnobjviewer\R.layout.html
+* doc\edu\dhbw\adnobjviewer\R.string.html
+* doc\edu\dhbw\adnobjviewer\class-use\
+* doc\edu\dhbw\adnobjviewer\class-use\MainActivity.html
+* doc\edu\dhbw\adnobjviewer\class-use\R.attr.html
+* doc\edu\dhbw\adnobjviewer\class-use\R.drawable.html
+* doc\edu\dhbw\adnobjviewer\class-use\R.html
+* doc\edu\dhbw\adnobjviewer\class-use\R.layout.html
+* doc\edu\dhbw\adnobjviewer\class-use\R.string.html
+* doc\edu\dhbw\adnobjviewer\package-frame.html
+* doc\edu\dhbw\adnobjviewer\package-summary.html
+* doc\edu\dhbw\adnobjviewer\package-tree.html
+* doc\edu\dhbw\adnobjviewer\package-use.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-2.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\inherit.gif
+* doc\stylesheet.css
+* img\
+* img\promo.png
+* img\screenshot1.png
+* img\screenshot2.jpg
+* img\screenshot2.png
+* lib\
+* lib\AndAR.jar
+* lib\AndAR_doc.zip
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\armeabi-v7a\libar.so => app\src\main\jniLibs\armeabi-v7a\libar.so
+* libs\armeabi-v7a\libyuv420sp2rgb.so => app\src\main\jniLibs\armeabi-v7a\libyuv420sp2rgb.so
+* libs\armeabi\libar.so => app\src\main\jniLibs\armeabi\libar.so
+* libs\armeabi\libyuv420sp2rgb.so => app\src\main\jniLibs\armeabi\libyuv420sp2rgb.so
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
